@@ -14,7 +14,7 @@ namespace Kolokwium.Controllers
             _dbService = dbService;
         }
 
-        [HttpPost("{id}/players")
+        [HttpPost("{id}/players")]
         public IActionResult AddPlayer(AddPlayerRequest request)
         {
             return Ok();
